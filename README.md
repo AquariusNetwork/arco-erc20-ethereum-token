@@ -2,7 +2,7 @@
 
 ARCO token contract
 
-Token contract address : 0x30c0eb61a4b30593f5f4d565d4efeda3431a5134
+Token contract address : 0x9Ad4D28CF045DEb68377BaB20F2b652AE41c9BCE
 
 Symbol      : ARCO
 
