@@ -1,12 +1,12 @@
 pragma solidity ^0.4.18;
 
 // ----------------------------------------------------------------------------
-// LANA token contract
+// ARCO token contract
 //
 // Deployed to : 0xc0fD6943086051769642563af6c002dB37a9Db23
-// Symbol      : LANA
-// Name        : LANA
-// Total supply: 7506000000
+// Symbol      : ARCO
+// Name        : ARCO
+// Total supply: 42000000
 // Decimals    : 0
 //
 // Enjoy.
@@ -99,7 +99,7 @@ contract Owned {
 // ERC20 Token, with the addition of symbol, name and decimals and assisted
 // token transfers
 // ----------------------------------------------------------------------------
-contract LANA is ERC20Interface, Owned, SafeMath {
+contract ARCO is ERC20Interface, Owned, SafeMath {
     string public symbol;
     string public  name;
     uint8 public decimals;
@@ -112,11 +112,11 @@ contract LANA is ERC20Interface, Owned, SafeMath {
     // ------------------------------------------------------------------------
     // Constructor
     // ------------------------------------------------------------------------
-    function LANA() public {
-        symbol = "LANA";
-        name = "LANA";
+    function ARCO() public {
+        symbol = "ARCO";
+        name = "ARCO";
         decimals = 0;
-        _totalSupply = 7506000000;
+        _totalSupply = 42000000;
         balances[0xc0fD6943086051769642563af6c002dB37a9Db23] = _totalSupply;
         Transfer(address(0), 0xc0fD6943086051769642563af6c002dB37a9Db23, _totalSupply);
     }
